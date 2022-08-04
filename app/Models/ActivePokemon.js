@@ -1,7 +1,6 @@
 export class ActivePokemon {
     constructor(data){
         this.name = data.name
-        this.url = data.url
     }
 
     get ActivePokemonTemplate(){
@@ -10,6 +9,7 @@ export class ActivePokemon {
      <div class="card-body">
       <div class="card-title">
         <h3>${this.name}</h3>
+        <h4>YO YO YO</h4>
       </div>
       <div class="card-text">
       </div>

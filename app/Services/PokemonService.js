@@ -6,7 +6,7 @@ import { ActivePokemon } from "../Models/ActivePokemon.js";
 
 class PokemonService{
     async setActivePokemon(name) {
-        let res = await pokemonApi.get(name)
+        let res = await pokemonApi.get('/api/v2/pokemon/'+ name)
         ProxyState.activePokemon = new ActivePokemon(res.data)
     }
     async getPokemons(){
