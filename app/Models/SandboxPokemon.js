@@ -8,6 +8,6 @@ export class SandboxPokemon extends ActivePokemon {
 
     get ListTemplate(){
         return `
-        <h1>${this.name}</h1><h3>YOUR POKEMON WILL DRAW HERE</h3>`
+        <h5 class="text-white text-center">${this.name}</h5>`
     }
 }

@@ -8,7 +8,7 @@ function _draw(){
     ProxyState.sandboxPokemons.forEach(p => template += p.ListTemplate)
     document.getElementById('sandbox-pokemons').innerHTML = template
     document.getElementById('known-pokemons').innerHTML = `
-    <div>known pokemon</div>`
+    <div class="text-white text-center"><h3>Pokeball Storage:</h3></div>`
 }
 
 export class SandboxPokemonController{

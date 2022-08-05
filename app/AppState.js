@@ -6,7 +6,7 @@ class AppState extends EventEmitter {
   pokemons = []
 
   /** @type {import('./Models/ActivePokemon').ActivePokemon[]} */
-  activePokemons = {}
+  activePokemon = {}
 
   /** @type {import('./Models/SandboxPokemon').SandboxPokemon[]} */
   sandboxPokemons = []
